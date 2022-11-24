@@ -277,10 +277,25 @@ footer {
   outline: #ff0000;
   resize: none;
 }
-.links {
-  display: flex;
-  align-items: flex-end;
+.links a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+.links a:hover {
+  background-color: #ddd;
+  color: rgb(78, 37, 37);
+}
+
+.links a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
 .about {
   width: 100%;
   height: 100vh;
