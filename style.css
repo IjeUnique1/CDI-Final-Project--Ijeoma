@@ -9,7 +9,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header {
-  background-image: url(images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -277,10 +277,14 @@ footer {
   outline: #ff0000;
   resize: none;
 }
+.links {
+  display: flex;
+  align-items: flex-end;
+}
 .about {
   width: 100%;
   height: 100vh;
-  background-image: image(10215472png);
+  background-image: url(./images/cover.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +300,7 @@ footer {
   padding: 0 10px;
 }
 .bucket {
-  width: 1280px;
+  width: 1000px;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -304,12 +308,29 @@ footer {
   justify-content: space-between;
 }
 .paragraph h1 {
-  color: #011a29;
-  font-size: 150px;
-  font-weight: 300;
+  color: #fbfcfd;
+  font-family: poppins serif;
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.paragraph h5 {
+  color: #fbfcfd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 200;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
+
+.paragraph p {
+  color: #6ffad7;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
 @media only screen and (max-width: 620px) {
   .about .bucket .paragraph {
     width: 100%;
