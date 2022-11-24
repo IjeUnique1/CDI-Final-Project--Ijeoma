@@ -9,7 +9,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header {
-  background-image: url(../images/background.png);
+  background-image: url(images/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
